@@ -9,7 +9,7 @@ let order = [
 
 
 
-console.log(`QTY    ITEM             TOTAL`);
+console.log(`QTY    ITEM     TOTAL`);
 let sum  = 0;
 order.forEach(({itemName, quantity,unitPrice})=>{
   let eachItem = quantity* unitPrice;
